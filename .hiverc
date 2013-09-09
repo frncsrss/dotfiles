@@ -1,0 +1,4 @@
+-- show the current working Hive database
+set hive.cli.print.current.db=true;
+-- force the local mode to be choose whenever possible
+set hive.exec.mode.local.auto=true;

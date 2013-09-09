@@ -173,6 +173,9 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
+" Highlight lines over 100-character long
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%>100v.\+/
 
 """"""""""""""""""""""""""""""
 " => Visual mode related
