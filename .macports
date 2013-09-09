@@ -1,0 +1,5 @@
+# git
+sudo port install git-core +doc +bash_completion +gitweb
+
+# coreutils
+sudo port install coreutils findutils

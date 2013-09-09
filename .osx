@@ -1,0 +1,35 @@
+######################################################################
+# Finder
+######################################################################
+
+# Show path bar
+defaults write com.apple.finder ShowPathbar -bool true
+
+# Display full POSIX path as Finder window title
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+
+######################################################################
+# Dashboard
+######################################################################
+
+# Disable Dashboard
+defaults write com.apple.dashboard mcx-disabled -bool true
+
+# Don’t show Dashboard as a Space
+defaults write com.apple.dock dashboard-in-overlay -bool true
+
+######################################################################
+# Dock
+######################################################################
+
+# Make Dock icons of hidden applications translucent
+defaults write com.apple.dock showhidden -bool true
+
+######################################################################
+# Kill affected applications
+######################################################################
+
+for app in "Dashboard" "Dock" "Finder";
+do
+  killall "$app" > /dev/null 2>&1
+done
