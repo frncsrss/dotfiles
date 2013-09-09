@@ -4,8 +4,8 @@
 
 dir=$HOME/dotfiles
 
-for file in .bash_profile .bashrc .bash_prompt .gitconfig .gitignore .vimrc .hiverc; do
+for file in bash_profile bashrc bash_prompt gitconfig gitignore vimrc hiverc Renviron; do
   source="$dir/$file"
-  dest="$HOME/$file"
+  dest="$HOME/.$file"
   ln -sfvn "$source" "$dest"
 done
