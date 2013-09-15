@@ -1,6 +1,0 @@
-# for rhdfs package
-HADOOP_HOME="/Users/katsumoto/Applications/hadoop-1.1.1"
-HADOOP_CMD="${HADOOP_HOME}/bin/hadoop"
-
-# proxy setting for X
-#http_proxy=http://kuzh.polytechnique.fr:8080
