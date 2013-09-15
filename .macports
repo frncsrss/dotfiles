@@ -3,3 +3,8 @@ sudo port install git-core +doc +bash_completion +gitweb
 
 # coreutils
 sudo port install coreutils findutils
+
+# LaTeX
+sudo port install texlive
+sudo port install texlive-lang-french
+sudo port install texlive-latex-extra
