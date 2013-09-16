@@ -25,6 +25,9 @@ defaults write com.apple.dock dashboard-in-overlay -bool true
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
 
+# Add separator
+defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
+
 ######################################################################
 # Spotlight 
 ######################################################################
