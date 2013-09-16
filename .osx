@@ -26,6 +26,13 @@ defaults write com.apple.dock dashboard-in-overlay -bool true
 defaults write com.apple.dock showhidden -bool true
 
 ######################################################################
+# Spotlight 
+######################################################################
+
+# Disable Spotlight indexing
+sudo mdutil -a -i off
+
+######################################################################
 # Kill affected applications
 ######################################################################
 
