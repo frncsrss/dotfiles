@@ -5,6 +5,7 @@
   whitespace = trailing-space,space-before-tab
   excludesfile = ~/.gitignore
   autocrlf = input
+  ignorecase = false
 [color]
   ui = auto
 [color "branch"]
