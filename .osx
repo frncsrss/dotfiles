@@ -29,6 +29,13 @@ defaults write com.apple.dock showhidden -bool true
 defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
 
 ######################################################################
+# Desktop
+######################################################################
+
+# Avoid creating .DS_Store files on network volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
+######################################################################
 # Spotlight 
 ######################################################################
 
