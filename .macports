@@ -14,3 +14,6 @@ sudo port install moreutils
 
 # gnuplot
 sudo port install gnuplot
+
+# JSON parser
+sudo port install jq
