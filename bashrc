@@ -21,8 +21,10 @@ export EDITOR=vim
 export PATH="/opt/local/libexec/gnubin:/opt/local/bin:/opt/local/sbin:${PATH}"
 export MANPATH="/opt/local/share/man:${MANPATH}"
 
-# Set $JAVA_HOME
-export JAVA_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home 
+# Local bashrc (e.g. machine-specific paths)
+if [ -f ~/.bashrc.local ]; then
+  . ~/.bashrc.local
+fi
 
 
 # If not running interactively, don't do anything past this point
