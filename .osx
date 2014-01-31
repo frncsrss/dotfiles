@@ -43,10 +43,17 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 sudo mdutil -a -i off
 
 ######################################################################
+# TextEdit
+######################################################################
+
+# Disable default save location to iCloud
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+
+######################################################################
 # Kill affected applications
 ######################################################################
 
-for app in "Dashboard" "Dock" "Finder";
+for app in "Dashboard" "Dock" "Finder" "TextEdit";
 do
   killall "$app" > /dev/null 2>&1
 done
