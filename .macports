@@ -18,3 +18,8 @@ sudo port install gnuplot
 
 # JSON parser
 sudo port install jq
+
+# ipe editor
+sudo port install ipe
+sudo port install ipe-tools
+
