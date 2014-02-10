@@ -9,6 +9,7 @@ sudo port install texlive
 sudo port install texlive-lang-french
 sudo port install texlive-latex-extra
 sudo port install texlive-latex-recommended
+sudo port install texlive-humanities
 
 # sponge among other tools
 sudo port install moreutils
