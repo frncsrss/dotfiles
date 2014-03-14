@@ -27,3 +27,6 @@ sudo port install ipe-tools
 # Python's scikit-learn library
 sudo port install py27-scikit-learn
 
+# Octave
+sudo port install octave
+
