@@ -24,8 +24,9 @@ sudo port install jq
 sudo port install ipe
 sudo port install ipe-tools
 
-# Python's scikit-learn library
+# Python's scikit-learn/panda libraries
 sudo port install py27-scikit-learn
+sudo port install py27-pandas
 
 # Octave
 sudo port install octave
