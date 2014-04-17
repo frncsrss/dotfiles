@@ -31,6 +31,7 @@ sudo port install py27-pandas
 sudo port install py27-networkx
 sudo port install cairo
 sudo port install py27-cairo
+sudo port install py27-ipython
 
 # Octave
 sudo port install octave
