@@ -12,7 +12,6 @@ HISTFILESIZE=10000
 HISTSIZE=10000
 HISTCONTROL=ignoreboth:erasedups
 shopt -s histappend
-PROMPT_COMMAND="history -n; history -w; history -c; history -r; $PROMPT_COMMAND"
 
 # Set the default editor to vim
 export EDITOR=vim
